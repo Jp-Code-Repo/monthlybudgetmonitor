@@ -277,71 +277,52 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#userdata-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-person-lines-fill"></i><span>User Data</span><i class="bi bi-chevron-down ms-auto"></i>
+        <a href="#" class="nav-link collapsed load-content" data-url="/pages/budget.page.php">
+          <i class="ri-tools-fill"></i>
+          <span>Expenses</span>
         </a>
-        <ul id="userdata-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="#" class="load-content" data-url="./user-data/users.page.php">
-              <i class="bi bi-circle"></i><span>System Users</span>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="load-content" data-url="./user-data/students.page.php">
-              <i class="bi bi-circle"></i><span>Student</span>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="load-content" data-url="./user-data/users.page.php">
-              <i class="bi bi-circle"></i><span>Teacher</span>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="load-content" data-url="./user-data/users.page.php">
-              <i class="bi bi-circle"></i><span>Staff</span>
-            </a>
-          </li>
-        </ul>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link collapsed load-content" data-url="/pages/budget.page.php">
+          <i class="ri-tools-fill"></i>
+          <span>Income</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link collapsed load-content" data-url="/pages/budget.page.php">
+          <i class="ri-tools-fill"></i>
+          <span>Reports</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link collapsed load-content" data-url="/pages/budget.page.php">
+          <i class="ri-tools-fill"></i>
+          <span>Budget Settings</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link collapsed load-content" data-url="/pages/budget.page.php">
+          <i class="ri-tools-fill"></i>
+          <span>Profile</span>
+        </a>
       </li>
 
-      <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#local-apps" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-menu-button-wide-fill"></i><span>Local Apps</span><i class="bi bi-chevron-down ms-auto"></i>
-        </a>
-        <ul id="local-apps" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="#" class="load-content" data-url="./local-apps/clinic.php">
-              <i class="bi bi-circle"></i><span>Clinic</span>
-            </a>
-          </li>
-        </ul>
-      </li>
+      <!-- End Forms Nav -->
 
-      <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#reports-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-newspaper"></i><span>Reports</span><i class="bi bi-chevron-down ms-auto"></i>
-        </a>
-        <ul id="reports-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="#" class="load-content" data-url="./user-data/xxx">
-              <i class="bi bi-circle"></i><span>Sample Report</span>
-            </a>
-          </li>
-        </ul>
-      </li><!-- End Forms Nav -->
-
-      <li class="nav-heading">Others</li>
+      <!-- <li class="nav-heading">Others</li>
 
       <li class="nav-item">
       <a href="#" class="nav-link collapsed load-content" data-url="./utilities/utilities.page.php">
           <i class="ri-tools-fill"></i>
           <span>Utilities</span>
         </a>
-      </li><!-- End Profile Page Nav -->
+      </li> -->
+      <!-- End Profile Page Nav -->
 
     </ul>
 
-  </aside><!-- End Sidebar-->
+  </aside>
+  <!-- End Sidebar-->
 
   <main id="main" class="main">
 
